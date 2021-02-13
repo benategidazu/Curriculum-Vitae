@@ -6,7 +6,9 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     background-repeat: no-repeat;
-    background-color: moccasin;
+    background-color: rgb(31, 31, 63);
+    color: ghostwhite;
+    
     
 }
 
@@ -19,7 +21,7 @@ body {
 }
 
 #curriculum {
-    font-size: 25px;
+    font-size: 35px;
 }
 
 
