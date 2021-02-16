@@ -1,4 +1,4 @@
-html {
+/* html {
   background-repeat: no-repeat;
   background-image: url('https://www.xtrafondos.com/wallpapers/vertical/cielo-estrellado-en-montanas-nevadas-3355.jpg');
   background-size: 100%;
@@ -6,7 +6,7 @@ html {
   filter: hue-rotate(330deg);
   display: flex;
   background-position: center center;
-}
+} */
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -14,6 +14,30 @@ body {
     margin: 40px;
     color:white;
     
+}
+
+.resaltar {
+  transition: 0.65s;
+}
+
+.resaltar:hover{
+  color: rgb(255, 182, 35);
+}
+
+#formacionacademica strong {
+  font-size: 17px;
+}
+
+#meritosinvestigacion strong {
+  font-size: 17px;
+}
+
+#participacionproyectos strong {
+  font-size: 17px;
+}
+
+#otrosmeritos strong {
+  font-size: 17px;
 }
 
 .encabezado {
@@ -74,29 +98,6 @@ img:hover {
   display: none;
 }
 
-.hover:hover {
-  transform: scale(1.5);
-}
-
-/* #otraInfo {
-  display: none;
-}
-
-#otrosmeritos{
-  display: none;
-}
-
-#participacionproyectos {
-  display: none;
-}
-
-#meritosinvestigacion {
-  display: none;
-}
-
-#formacionacademica {
-  display: none;
-} */
   
   @media all and (min-width: 520px) {
     .info-container {
@@ -122,6 +123,7 @@ img:hover {
   }
 
   @media all and (max-width: 520px) {
+    
     .info-container {
       display: flex;
     }
@@ -147,6 +149,17 @@ img:hover {
         display: none;
     }
   }
-  /* @media all and (max-width: 1200px) {
-    background-image: none;
-    background-color: rgb(102, 69, 211); */
+
+  #video_background {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+    }
+    
+  

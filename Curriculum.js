@@ -6,20 +6,11 @@ function fImprimir(){
     window.print()
 }
 
-let mostrar = (i) => {
-    i.style.display = 'block';
-}
-let ocultar = (x) => {
-    x.style.display = 'none';
-}
-
-function mo (param) {
-    let elemento = document.getElementById(param);
-    if (window.getComputedStyle(elemento) === 'none') {
-        mostrar (elemento);
-        return false;
-    } else
-    mostrar (elemento);
-    return true;
-
+function myFunction (param) {
+    var a = document.getElementById(param);
+    if (a.style.display === "none") {
+        a.style.display = "block";
+    } else {
+        a.style.display = 'none';
+    }
 }
